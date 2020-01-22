@@ -1,0 +1,72 @@
+.my-spacer {
+  clear: both;
+  position: relative;
+  border: none;
+  padding: 0;
+  margin: 0;
+}
+
+.my-spacer-xlg {
+  height: 150px;
+}
+@media screen and (max-width: 768px) {
+  .my-spacer-xlg {
+    height: 70px;
+  }
+}
+
+.my-spacer-lg {
+  height: 100px;
+}
+@media screen and (max-width: 768px) {
+  .my-spacer-lg {
+    height: 50px;
+  }
+}
+
+.my-spacer-md {
+  height: 80px;
+}
+@media screen and (max-width: 768px) {
+  .my-spacer-md {
+    height: 30px;
+  }
+}
+
+.my-spacer-sm {
+  height: 50px;
+}
+@media screen and (max-width: 768px) {
+  .my-spacer-sm {
+    height: 20px;
+  }
+}
+
+.my-spacer-xs {
+  height: 30px;
+}
+@media screen and (max-width: 768px) {
+  .my-spacer-xs {
+    height: 20px;
+  }
+}
+
+.my-spacer-xxs {
+  height: 20px;
+}
+
+.my-letter-spacing {
+  letter-spacing: 1px;
+}
+
+.my-no-margin-bottom {
+  margin-bottom: 0 !important;
+}
+
+.my-uppercase-heading-sm {
+  font-size: 14px;
+  line-height: 26px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  color: #ccc;
+}
