@@ -5,7 +5,6 @@
   /* font-family: 'Source Sans Pro', sans-serif; */
 }
 
-
 main {
   overflow-x: hidden;
   overflow-y: hidden;
@@ -23,8 +22,36 @@ body {
   z-index: -3;
 }
 
-#home{
-   /* background-color: #cb6c283b; */
+.moreBtn {
+  color: white;
+  background-color: transparent;
+  border-style: solid;
+  padding: 0.5em 1.7em;
+  border-width: 1px;
+  transition: all 0.3s ease;
+  text-align: center;
+}
+
+.moreBtn:hover {
+  color: tomato;
+  background-color: transparent;
+  border-style: solid;
+  padding: 0.5em 1.7em;
+  border-width: 1px;
+  text-align: center;
+  border-color: tomato;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.flexible {
+  display: flex;
+  justify-content: center;
+  padding-top: 3em;
+}
+
+#home {
+  /* background-color: #cb6c283b; */
 }
 
 /* About */
@@ -39,7 +66,6 @@ body {
   position: relative;
   margin: 0;
   box-shadow: 0 0 20px 0 black;
-
 }
 
 .about img {
@@ -90,7 +116,7 @@ footer {
   color: azure;
   background-color: rgb(15, 15, 15);
   position: relative;
-    z-index: -1;
+  z-index: -1;
 }
 
 footer .social a {
@@ -818,7 +844,6 @@ input:focus ~ .highlight {
   width: 100%;
   background-color: #e0e0e0;
   padding-bottom: 5em;
-
 }
 
 .heading h1 {
@@ -871,7 +896,6 @@ input:focus ~ .highlight {
   width: 100%;
   padding-bottom: 5em;
   box-shadow: 0 0 20px 0 black;
-
 }
 
 .mt {
@@ -881,7 +905,7 @@ input:focus ~ .highlight {
 .car h1 {
   text-align: center;
   font-weight: bold;
- 
+
   color: rgb(240, 117, 71);
   padding: 10px 0px;
   margin-bottom: 30px;
@@ -895,19 +919,19 @@ input:focus ~ .highlight {
 }
 
 .carText h1 {
-    font-size: 45px;
-    text-align: center;
-    color: rgb(240, 117, 71);
-    font-weight: 600;
-    border-bottom: 1px solid rgb(240, 117, 71);
-    line-height: 73px;
-    border-width: 11px;
+  font-size: 45px;
+  text-align: center;
+  color: rgb(240, 117, 71);
+  font-weight: 600;
+  border-bottom: 1px solid rgb(240, 117, 71);
+  line-height: 73px;
+  border-width: 11px;
 }
 
 .carText h4 {
   font-size: 28px;
   text-align: center;
-  color: rgb(240, 117, 71);;
+  color: rgb(240, 117, 71);
   font-weight: 600;
 }
 
@@ -975,9 +999,9 @@ input:focus ~ .highlight {
 
 .rent a {
   background-color: transparent;
-  color:  rgb(240, 117, 71);
+  color: rgb(240, 117, 71);
   border-style: solid;
-  border-color:  rgb(240, 117, 71);
+  border-color: rgb(240, 117, 71);
 }
 
 .rent a:hover {
@@ -1033,7 +1057,7 @@ li span {
 .flip-card {
   position: relative;
   width: 100%;
-  height: 100%;
+  height: 90%;
   transition: transform 1s;
   transform-style: preserve-3d;
 }
@@ -1058,10 +1082,10 @@ li span {
 }
 
 .flip-card-front {
-    /* background-color: rgb(255, 255, 255); */
-    color: #f44336;
-    /* box-shadow: 0 0 6px 0 #c3c3c3; */
-    background: transparent;
+  /* background-color: rgb(255, 255, 255); */
+  color: #f44336;
+  /* box-shadow: 0 0 6px 0 #c3c3c3; */
+  background: transparent;
 }
 
 .flip-card-back {
@@ -1109,12 +1133,12 @@ li span {
 }
 
 #home h1 {
-    margin-top: 0;
-    margin-bottom: 0.25em;
-    font-size: 4em;
-    font-weight: 900;
-    line-height: 0.9;
-    color: #871923;
+  margin-top: 0;
+  margin-bottom: 0.25em;
+  font-size: 4em;
+  font-weight: 900;
+  line-height: 0.9;
+  color: #871923;
 }
 
 #home p {
@@ -1123,14 +1147,14 @@ li span {
 }
 
 #home a {
-    padding: 0.5em 1em;
-    font-size: 0.8em;
-    color: #ffffff;
-    text-decoration: none;
-    text-transform: uppercase;
-    letter-spacing: 0.3em;
-    border: 1px solid #ffffff;
-    transition: all 0.3s ease-in;
+  padding: 0.5em 1em;
+  font-size: 0.8em;
+  color: #ffffff;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 0.3em;
+  border: 1px solid #ffffff;
+  transition: all 0.3s ease-in;
 }
 #home a:hover,
 #home a:active,
@@ -1156,7 +1180,7 @@ li span {
   background-color: #d0f2ee;
   text-shadow: none;
 }
-#home{
+#home {
   background-image: url(../images/img/carsStand.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -1169,12 +1193,12 @@ li span {
   z-index: -100;
 }
 
-#home::before{
-content: "";
-position: absolute;
-height: 100vh;
-width: 100%;
-background-color: #00000069;
+#home::before {
+  content: "";
+  position: absolute;
+  height: 100vh;
+  width: 100%;
+  background-color: #00000069;
 }
 
 /**
@@ -1216,33 +1240,36 @@ background-color: #00000069;
  * Components
  */
 .post {
+  width: 100%;
+  background-image: url(../images/img/backround1.png),
+    url(../images/img/background2.png);
+  background-size: 39%;
+  background-repeat: no-repeat;
+  background-position: 60em 9em, 36em 4em;
+  position: relative;
+  z-index: -3;
+}
+
+@media (max-width: 1228px) {
+  .post {
     width: 100%;
-    background-image: url(../images/img/backround1.png), url(../images/img/background2.png);
+    background-image: url(../images/img/backround1.png),
+      url(../images/img/background2.png);
     background-size: 39%;
     background-repeat: no-repeat;
-    background-position: 60em 9em, 36em 4em;
-    position: relative;
-    z-index: -3;
+    background-position: 51em 9em, 27em 4em;
+  }
 }
 
-@media(max-width:1228px){
-    .post {
-        width: 100%;
-        background-image: url(../images/img/backround1.png), url(../images/img/background2.png);
-        background-size: 39%;
-        background-repeat: no-repeat;
-        background-position: 51em 9em, 27em 4em;
-    }  
-}
-
-@media(max-width:992px){
-    .post {
-        width: 100%;
-        background-image: url(../images/img/backround1.png), url(../images/img/background2.png);
-        background-size: 39%;
-        background-repeat: no-repeat;
-        background-position: 40em 14em, 24em 4em;
-    }  
+@media (max-width: 992px) {
+  .post {
+    width: 100%;
+    background-image: url(../images/img/backround1.png),
+      url(../images/img/background2.png);
+    background-size: 39%;
+    background-repeat: no-repeat;
+    background-position: 40em 14em, 24em 4em;
+  }
 }
 @media (min-width: 54em) {
   .post {
@@ -1315,7 +1342,7 @@ background-color: #00000069;
   position: absolute;
   left: 50%;
   top: 50%;
-  transform: translate(-50%,-50%);
+  transform: translate(-50%, -50%);
 }
 @media (min-width: 54em) {
   .post__content {
@@ -1323,7 +1350,7 @@ background-color: #00000069;
     position: absolute;
     left: 50%;
     top: 50%;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%, -50%);
   }
 }
 .post__time {
@@ -1365,7 +1392,7 @@ background-color: #00000069;
   position: absolute;
   left: 50%;
   top: 75%;
-  transform: translate(-50%,-50%);
+  transform: translate(-50%, -50%);
 }
 
 /**
@@ -1386,15 +1413,15 @@ background-color: #00000069;
 }
 
 .absolute-bg:before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-    opacity: 0.3;
-    background-color: #cb6c28;
-  }
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0.3;
+  background-color: #cb6c28;
+}
 
 /**
  * Animations
@@ -1560,7 +1587,6 @@ background-color: #00000069;
   position: fixed;
   top: 35px;
   right: 10px;
-  
 }
 /*
 * But let's hide the middle one.
