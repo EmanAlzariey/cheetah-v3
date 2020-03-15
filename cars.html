@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Cheetah</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="shortcut icon" href="./images/img/logo.png" type="image/x-icon">
+    <!-- google api -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,,600,700"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Slab&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./js/vendor/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./js/vendor/bootstrap/css/bootstrap-grid.css">
+    <link rel="stylesheet" href="./js/vendor/bootstrap/css/bootstrap-reboot.css">
+    <!--───────────────────────────────────────────────────────────────── -->
+    <!--───────────────────────────────────────────────────────────────── -->
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!--───────────────────────────────────────────────────────────────── -->
+
+
+</head>
+
+<body>
+
+    <!-- HEADER SECTION-->
+
+    <header>
+            <nav role="navigation">
+                    <div id="menuToggle">
+                      <!--
+                      A fake / hidden checkbox is used as click reciever,
+                      so you can use the :checked selector on it.
+                      -->
+                      <input type="checkbox" />
+                      
+                      <!--
+                      Some spans to act as a hamburger.
+                      
+                      They are acting like a real hamburger,
+                      not that McDonalds stuff.
+                      -->
+                      <span></span>
+                      <span></span>
+                      <span></span>
+                      
+                      <!--
+                      Too bad the menu has to be inside of the button
+                      but hey, it's pure CSS magic.
+                      -->
+                      <ul id="menu">
+                        <a href="index.html"><li>Home</li></a>
+                        <a href="#about"><li>About</li></a>
+                        <a href="#services"><li>Services</li></a>
+                        <a href="#cars"><li>Cars</li></a>
+                        <a href="#contact"><li>Contact</li></a>
+                      </ul>
+                    </div>
+                  </nav>
+    </header>
+    <body>
+        <main>
+        
+  
+
+    <!-- End HEADER SECTION-->
+
+    <main>
+        <!-- start about ───────────────────────────────────────────────────────────────── -->
+
+
+   
+
+
+        <!--start cars-->
+        <section id="cars" class="clearfix" style="background-color: whitesmoke;"
+            <div class="container-fluid">
+                <div class="row " style="padding-bottom:5em">
+                    <div class="col-md-12">
+                        <div class="heading car">
+                            <h1>OUR CARS</h1>
+                        </div>
+                    </div>
+                    <div class="col-md-4 ">
+                        <div class="col-md-12 flip-card-container"data-aos="fade-right"  data-aos-easing="ease-out-cubic"
+                        data-aos-duration="2000">
+                                <div class="flip-card">
+                                    <div class="flip-card-front">
+                                        <img class="img-responsive" src="./images/img/fortuner.png" alt="car image" />
+                                        <div class="carText">
+                                            <h1>Fortuner</h1>
+                                        </div>
+                                    </div>
+                                    <div class="flip-card-back">
+                                        <div class="carText">
+                                            <h4>$</h4>
+                                            <!-- here text goes -->
+                                            <ul>
+                                                <li><span>Doors</span> <span class="spec">4</span></li>
+                                                <li>
+                                                    <span>Seats</span>
+                                                    <span class="spec">4</span>
+                                                </li>
+                                                <li>
+                                                    <span>Transmission</span>
+                                                    <span class="spec">4</span>
+                                                </li>
+                                            </ul>
+    
+                                            <div class="rent">
+                                                <a href="#cars"  onclick="openBox()" class="btn btn-primary">Rent Now</a
+                                        >
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                        </div>
+
+                        </div>
+                        <div class="col-md-4 " data-aos="fade-right"  data-aos-easing="ease-out-cubic"
+                        data-aos-duration="2500">
+                            <div class="col-md-12 flip-card-container">
+                                    <div class="flip-card">
+                                      <div class="flip-card-front">
+                                        <img
+                                          class="img-responsive"
+                                          src="./images/img/prado.png"
+                                          alt="car image"
+                                        />
+                                        <div class="carText">
+                                            <h1>Prado</h1>
+                                        </div>
+                                      </div>
+                                      <div class="flip-card-back">
+                                        <div class="carText">
+                                          <h4>$</h4>
+                                          <!-- here text goes -->
+                                          <ul>
+                                            <li><span>Doors</span> <span class="spec">4</span></li>
+                                            <li>
+                                              <span>Seats</span>
+                                              <span class="spec">4</span>
+                                            </li>
+                                            <li>
+                                              <span>Transmission</span>
+                                              <span class="spec">4</span>
+                                            </li>
+                                          </ul>
+                      
+                                          <div class="rent">
+                                                <a href="#cars"  onclick="openBox()" class="btn btn-primary">Rent Now</a
+                                            >
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 " data-aos="fade-right"  data-aos-easing="ease-out-cubic"
+                        data-aos-duration="2500">
+                            <div class="col-md-12 flip-card-container">
+                                    <div class="flip-card">
+                                      <div class="flip-card-front">
+                                        <img
+                                          class="img-responsive"
+                                          src="./images/img/land.png"
+                                          alt="car image"
+                                        />
+                                        <div class="carText">
+                                            <h1>Land Cruiser</h1>
+                                        </div>
+                                      </div>
+                                      <div class="flip-card-back">
+                                        <div class="carText">
+                                          <h4>$</h4>
+                                          <!-- here text goes -->
+                                          <ul>
+                                            <li><span>Doors</span> <span class="spec">4</span></li>
+                                            <li>
+                                              <span>Seats</span>
+                                              <span class="spec">4</span>
+                                            </li>
+                                            <li>
+                                              <span>Transmission</span>
+                                              <span class="spec">4</span>
+                                            </li>
+                                          </ul>
+                      
+                                          <div class="rent">
+                                                <a href="#cars"  onclick="openBox()" class="btn btn-primary">Rent Now</a
+                                            >
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 " data-aos="fade-right"  data-aos-easing="ease-out-cubic"
+                        data-aos-duration="2500">
+                            <div class="col-md-12 flip-card-container">
+                                    <div class="flip-card">
+                                      <div class="flip-card-front">
+                                        <img
+                                          class="img-responsive"
+                                          src="./images/img/rav4.png"
+                                          alt="car image"
+                                        />
+                                        <div class="carText">
+                                            <h1>Rav 4</h1>
+                                        </div>
+                                      </div>
+                                      <div class="flip-card-back">
+                                        <div class="carText">
+                                          <h4>$</h4>
+                                          <!-- here text goes -->
+                                          <ul>
+                                            <li><span>Doors</span> <span class="spec">4</span></li>
+                                            <li>
+                                              <span>Seats</span>
+                                              <span class="spec">4</span>
+                                            </li>
+                                            <li>
+                                              <span>Transmission</span>
+                                              <span class="spec">4</span>
+                                            </li>
+                                          </ul>
+                      
+                                          <div class="rent">
+                                                <a href="#cars"  onclick="openBox()" class="btn btn-primary">Rent Now</a
+                                            >
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 " data-aos="fade-right"  data-aos-easing="ease-out-cubic"
+                        data-aos-duration="2500">
+                            <div class="col-md-12 flip-card-container">
+                                    <div class="flip-card">
+                                      <div class="flip-card-front">
+                                        <img
+                                          class="img-responsive"
+                                          src="./images/img/hilux.png"
+                                          alt="car image"
+                                        />
+                                        <div class="carText">
+                                            <h1>Hilux</h1>
+                                        </div>
+                                      </div>
+                                      <div class="flip-card-back">
+                                        <div class="carText">
+                                          <h4>$</h4>
+                                          <!-- here text goes -->
+                                          <ul>
+                                            <li><span>Doors</span> <span class="spec">4</span></li>
+                                            <li>
+                                              <span>Seats</span>
+                                              <span class="spec">4</span>
+                                            </li>
+                                            <li>
+                                              <span>Transmission</span>
+                                              <span class="spec">4</span>
+                                            </li>
+                                          </ul>
+                      
+                                          <div class="rent">
+                                                <a href="#cars"  onclick="openBox()" class="btn btn-primary">Rent Now</a
+                                            >
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 " data-aos="fade-right"  data-aos-easing="ease-out-cubic"
+                        data-aos-duration="2500">
+                            <div class="col-md-12 flip-card-container">
+                                    <div class="flip-card">
+                                      <div class="flip-card-front">
+                                        <img
+                                          class="img-responsive"
+                                          src="./images/img/camry.png"
+                                          alt="car image"
+                                        />
+                                        <div class="carText">
+                                            <h1>Camry</h1>
+                                        </div>
+                                      </div>
+                                      <div class="flip-card-back">
+                                        <div class="carText">
+                                          <h4>$</h4>
+                                          <!-- here text goes -->
+                                          <ul>
+                                            <li><span>Doors</span> <span class="spec">4</span></li>
+                                            <li>
+                                              <span>Seats</span>
+                                              <span class="spec">4</span>
+                                            </li>
+                                            <li>
+                                              <span>Transmission</span>
+                                              <span class="spec">4</span>
+                                            </li>
+                                          </ul>
+                      
+                                          <div class="rent">
+                                                <a href="#cars"  onclick="openBox()" class="btn btn-primary">Rent Now</a
+                                            >
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 " data-aos="fade-right"  data-aos-easing="ease-out-cubic"
+                        data-aos-duration="2500">
+                            <div class="col-md-12 flip-card-container">
+                                    <div class="flip-card">
+                                      <div class="flip-card-front">
+                                        <img
+                                          class="img-responsive"
+                                          src="./images/img/lexus.png"
+                                          alt="car image"
+                                        />
+                                        <div class="carText">
+                                            <h1>Lexus</h1>
+                                        </div>
+                                      </div>
+                                      <div class="flip-card-back">
+                                        <div class="carText">
+                                          <h4>$</h4>
+                                          <!-- here text goes -->
+                                          <ul>
+                                            <li><span>Doors</span> <span class="spec">4</span></li>
+                                            <li>
+                                              <span>Seats</span>
+                                              <span class="spec">4</span>
+                                            </li>
+                                            <li>
+                                              <span>Transmission</span>
+                                              <span class="spec">4</span>
+                                            </li>
+                                          </ul>
+                      
+                                          <div class="rent">
+                                                <a href="#cars"  onclick="openBox()" class="btn btn-primary">Rent Now</a
+                                            >
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                            </div>
+                        </div>
+                        <div class="my-spacer my-spacer-md"></div>
+                      </div>
+                    </div>
+                  </section>
+            <!-- End Cars -->
+        <!-- start contact-->
+</main>
+
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 linksFooter">
+                    <h3>Links</h3>
+                    <ul>
+                        <a href="#">
+                            <li>Home</li>
+                        </a>
+                        <a href="#about">
+                            <li>About Us</li>
+                        </a>
+                        <a href="#services">
+                            <li>Services</li>
+                        </a>
+                        <a href="#cars">
+                            <li>Cars</li>
+                        </a>
+                        <a href="#contact">
+                            <li>Contact Us</li>
+                        </a>
+
+                    </ul>
+                </div>
+
+                <div class="col-md-6">
+                    <h3>Subscribe</h3>
+                    <form action="">
+                        <input type="text">
+                        <input style='text-align: left' type="button" value="SUBMIT">
+                    </form>
+                </div>
+                <div class="col-md-3">
+                    <h3>Social</h3>
+                    <div class="social">
+                            <a href="https://www.facebook.com/cheetahye/"><i class="icon-facebook-with-circle"></i></a>
+                            <a href="mailto:cheetahrent@gmail.com"><i class="icon-mail"></i></a>
+                            <a href="mailto:cheetahrent@gmail.com"><i class="icon-phone"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </footer>
+
+    <!--===============================================================================================-->
+    <script src="./js/vendor/jquery/jquery-3.2.1.min.js"></script>
+    <script src="./js/vendor/bootstrap/js/bootstrap.min.js"></script>
+    <!--===============================================================================================-->
+
+    <!-- Get google map from API -->
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAKFWBqlKAGCeS1rMVoaNlwyayu0e0YRes"></script>
+    <!--===============================================================================================-->
+    <script src="js/main.js"></script>
+    <!--===============================================================================================-->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <!--===============================================================================================-->
+</body>
+
+</html>
