@@ -494,9 +494,16 @@ iframe {
     line-height: 1.2;
     text-align: right;
     position: absolute;
-    top: 14px;
+    top: 7px;
     left: -105px;
     width: 80px;
+}
+
+.dropDownLabel{
+  margin: 0.5em 0 0 0;
+    border-style: hidden;
+    border-bottom: 1px solid #d4d2d2;
+    padding-bottom: 4px;
 }
 
 
@@ -543,7 +550,7 @@ iframe {
 /*---------------------------------------------*/
 
 input.input100 {
-    height: 45px;
+    height: 30px;
 }
 
 textarea.input100 {
@@ -1679,12 +1686,13 @@ li span {
     transform: none;
 }
 
-.Icon {
-    background-color: #acb5b5;
-    padding: 0em;
-    margin: 0px;
-    width: 1em;
-    height: 2em;
+
+.Icon{
+  background-color: #acb5b5;
+  padding: 0em;
+  margin: 0em;
+  width: 1em;
+  height: 2em;
 }
 
 .facebook {
@@ -1717,4 +1725,14 @@ h7 {
     margin: 0.6em 0.6em 0 0.6em;
     font-size: 0.65em;
     font-weight: 300;
+}
+
+.closeBtn{
+  background-color: #090a0a;
+  padding: 0em;
+  margin: 0 1em;
+  width: 1em;
+  height: 2em;
+  -webkit-mask: url(../images/icons/close.svg) no-repeat center;
+  mask: url(../images/icons/close.svg) no-repeat center;
 }
