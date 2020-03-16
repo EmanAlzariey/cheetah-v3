@@ -55,14 +55,21 @@
                       but hey, it's pure CSS magic.
                       -->
                       <ul id="menu">
-                        <a href="#"><li>Home</li></a>
-                        <a href="#about"><li>About</li></a>
-                        <a href="#services"><li>Services</li></a>
-                        <a href="#cars"><li>Cars</li></a>
-                        <a href="#contact"><li>Contact</li></a>
+                        <a href="#"><li>الصفحة الرئيسية</li></a>
+                        <a href="#about"><li>عن شيتا</li></a>
+                        <a href="#services"><li>خدماتنا</li></a>
+                        <a href="#cars"><li>السيارات</li></a>
+                        <a href="#contact"><li>تواصل معنا</li></a>
                       </ul>
                     </div>
                   </nav>
+
+                    <select  class='language' name="forma" onchange="location = this.value;">
+                            <option value="index_ar.html">AR</option>
+                        <option value="index.html">EN</option>
+                       
+            
+                    </select>
     </header>
     <body>
         <main>
@@ -203,7 +210,7 @@
                         data-aos-duration="2000">
                                 <div class="flip-card">
                                     <div class="flip-card-front">
-                                        <img class="img-responsive" src="./images/img/fortuner.png" alt="car image" />
+                                        <img class="img-responsive" src="./images/cars-images/fortuner.png" alt="car image" />
                                         <div class="carText">
                                             <h1>فورتشنر</h1>
                                         </div>
@@ -241,7 +248,7 @@
                                       <div class="flip-card-front">
                                         <img
                                           class="img-responsive"
-                                          src="./images/img/prado.png"
+                                          src="./images/cars-images/toyota-prado.png"
                                           alt="car image"
                                         />
                                         <div class="carText">
@@ -280,11 +287,11 @@
                                       <div class="flip-card-front">
                                         <img
                                           class="img-responsive"
-                                          src="./images/img/land.png"
+                                          src="./images/cars-images/toyota-hilux-pickup-truck-car-2-18-toyota-tacoma-dalton-toyota-hilux.png"
                                           alt="car image"
                                         />
                                         <div class="carText">
-                                            <h1>لاند كروزر</h1>
+                                            <h1>هيلوكس</h1>
                                         </div>
                                       </div>
                                       <div class="flip-card-back">
@@ -324,16 +331,14 @@
                 <div class="col-md-12">
 
                     <div class="container-contact100">
-                        <!-- <div style="height:500px" class="contact100-map" id="google_map" data-map-x="15.3217239"
-                            data-map-y="44.1965417" data-pin="images/icons/map-marker.png" data-scrollwhell="0"
-                            data-draggable="1"></div> -->
                             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3848.009526031196!2d44.19697111432807!3d15.321717463106161!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1603dbeefc1d4559%3A0xf6c39ca45d9d6351!2z2LTYsdmD2Kkg2KrYtNmK2KrYpyDZhNiq2KPYrNmK2LEg2KfZhNiz2YrYp9ix2KfYqiDZiNiu2K_Zhdin2Kog2KfZhNmG2YLZhA!5e0!3m2!1sen!2s!4v1579512048846!5m2!1sen!2s" width="100%" height="700" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
-                        <a class="open" onclick="openBox()" id='FindUs'>اوجدنا</a>
+                        <a class="open" onclick="openBox()" id='FindUs'> تواصل معنا </a>
                                             <div class="overlay" style="display:none;">
                                                 <div class="layer-outer">
                                                     <div class="layer-inner">
-                                                        <span class="close">
-                                        <i class='icon-cross'></i></span>
+                                    <span >
+                                            <div class='closeBtn close'></div>
+                                    </span>
                                         <div class="wrap-contact100">
 
                                             <div class='ContactForm-title'>تواصل معنا
@@ -349,7 +354,7 @@
                                                 
 
                                                 <div class="wrap-input100 validate-input" data-validate="Valid البريد الألكتروني is required: ex@abc.xyz">
-                                                    <span class="label-input100">البريد الألكتروني:</span>
+                                                    <span class="label-input100">البريدالألكتروني:</span>
                                                     <input class="input100" type="text" name="البريد الألكتروني" placeholder="ادخل عنوان الأيميل" required>
                                                     <span class="focus-input100"></span>
                                                 </div>
@@ -373,6 +378,15 @@
                                                         <span class="focus-input100"></span>
                                                     </div>
 
+                                                <div class="wrap-input100 validate-input" data-validate="Airport is required">
+                                                        <span class="label-input100 ">المطار:</span>
+                                                            <select class='input100 dropDownLabel' required>
+                                                            <option value="Aden">عدن</option>
+                                                            <option value="Seiyun">سيئون</option>
+                                                            </select>
+                                                        <span class="focus-input100"></span>
+                                                    </div>
+
                                                 <div class="wrap-input100 validate-input" data-validate="Message is required">
                                                     <span class="label-input100">الرسالة:</span>
                                                     <textarea class="input100" name="message" placeholder="تعليقك"></textarea>
@@ -383,8 +397,6 @@
                                                     <button class="contact100-form-btn">
                                     <span>
                                         Submit
-                                        <i class="fa fa-long-arrow-right m-l-7"
-                                            aria-hidden="true"></i>
                                     </span>
                                 </button>
                                                 </div>
@@ -466,10 +478,11 @@
 
 
 
+    
     <footer>
-        <div class="container">
-            <div class="row">
-                <div class="col-md-3 linksFooter">
+            <div class="container">
+
+                <div class="linksFooter">
                     <h3>الروابط</h3>
                     <ul>
                         <a href="#">
@@ -487,37 +500,35 @@
                         <a href="#contact">
                             <li>التواصل</li>
                         </a>
-
+                    
                     </ul>
                 </div>
 
-                <div class="col-md-6">
-                    <h3>الأشتراك</h3>
+                <div>
+                    <h3>إشترك لتوصلك آخر أخبارنا</h3>
                     <form action="">
-                        <input type="text">
-                        <input style='text-align: left' type="button" value="SUBMIT">
+                        <input type="text" placeholder="...اكتب إيميلك هنا ">
+                        <button class="subscribeBtn">SUBMIT</button>
                     </form>
+
                 </div>
-                <div class="col-md-3">
-                    <h3>مواقع التواصل الأجتماعي</h3>
+                <div>
+                    <h3>مواقع التواصل الإجتماعي</h3>
                     <div class="social">
-                            <a href="https://www.facebook.com/cheetahye/"><i class="icon-facebook-with-circle"></i></a>
-                            <a href="mailto:cheetahrent@gmail.com"><i class="icon-mail"></i></a>
-                            <a href="mailto:cheetahrent@gmail.com"><i class="icon-phone"></i></a>
+                        <span><a href="https://www.facebook.com/cheetahye/"><div class="Icon facebook"></div><h7>/cheetahye</h7></a></span>
+                        <span><a href="mailto:cheetahrent@gmail.com"><div class="Icon mail"></div><h7>cheetahrent@gmail.com</h7></a></span>
+                        <span><a><div class="Icon call"></div><h7>+777777777</h7></a></span>
+
                     </div>
                 </div>
-            </div>
-        </div>
 
-    </footer>
+            </div>
+
+        </footer>
 
     <!--===============================================================================================-->
     <script src="./js/vendor/jquery/jquery-3.2.1.min.js"></script>
     <script src="./js/vendor/bootstrap/js/bootstrap.min.js"></script>
-    <!--===============================================================================================-->
-
-    <!-- Get google map from API -->
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAKFWBqlKAGCeS1rMVoaNlwyayu0e0YRes"></script>
     <!--===============================================================================================-->
     <script src="js/main.js"></script>
     <!--===============================================================================================-->
