@@ -93,7 +93,14 @@ footer {
     z-index: -3;
 }
 
+footer .container{
+  display: flex;
+  justify-content: space-between;
+  padding: 0 5em;
+}
+
 footer .social a {
+  display: flex;
   color: #b1b1b1;
   text-decoration: none;
   font-size: 27px;
@@ -103,14 +110,7 @@ footer .social a {
   transition: all 0.5s ease;
 }
 
-footer .social a:hover {
-  color: tomato;
-  text-decoration: none;
-  font-size: 27px;
-  padding: 3px;
-  position: relative;
-  top: 13px;
-}
+
 .round {
   border-color: tomato;
   border-style: solid;
@@ -1621,4 +1621,37 @@ background-color: #000000a6;
 #menuToggle input:checked ~ ul {
   -webkit-transform: none;
   transform: none;
+}
+
+.Icon{
+  background-color: #acb5b5;
+  padding: 0em;
+  margin: 0px;
+  width: 1em;
+  height: 2em;
+}
+
+.facebook{
+  -webkit-mask: url(../images/icons/facebook.svg) no-repeat center;
+  mask: url(../images/icons/facebook.svg) no-repeat center;
+}
+
+.mail{
+  -webkit-mask: url(../images/icons/envelope.svg) no-repeat center;
+  mask: url(../images/icons/envelope.svg) no-repeat center;
+  width: 1.2em;
+}
+
+.call{
+  -webkit-mask: url(../images/icons/call.svg) no-repeat center;
+  mask: url(../images/icons/call.svg) no-repeat center;
+}
+.facebook:hover, .mail:hover, .call:hover{
+  background-color:  tomato;
+}
+
+h7{
+    margin: 0.6em 0.6em 0 0.6em;
+    font-size: 0.65em;
+    font-weight: 300;
 }
