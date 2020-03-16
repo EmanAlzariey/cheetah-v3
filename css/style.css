@@ -1648,10 +1648,10 @@ li span {
 
 #menu {
     position: absolute;
-    width: 360px;
+    width: 290px;
+    height: 107vh;
     margin: -100px 0 0 -50px;
-    padding: 50px;
-    padding-top: 125px;
+    padding: 107px 50px 50px 30px;
     background: #ededed;
     list-style-type: none;
     -webkit-font-smoothing: antialiased;
@@ -1684,6 +1684,13 @@ li span {
 #menuToggle input:checked~ul {
     -webkit-transform: none;
     transform: none;
+}
+
+.language{
+  z-index: 2;
+  position: fixed;
+  top: 2.25em;
+  right: 2em;
 }
 
 
