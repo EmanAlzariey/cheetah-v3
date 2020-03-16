@@ -41,8 +41,6 @@ body {
     box-shadow: 0 0 20px 0 black;
 }
 
-.singleAbout {}
-
 .about img {
     width: 100%;
     border-radius: 70px;
@@ -52,20 +50,19 @@ body {
 
 .about h1 {
     text-align: center;
-    /* margin-bottom: 45px; */
-    /* margin-top: 30px; */
+    margin-bottom: 45px;
+    margin-top: 30px;
     /* padding-bottom: 20px; */
     color: rgb(169, 80, 36);
     font-weight: bold;
 }
 
 .about h3 {
+    text-align: center;
     padding: 15px 30px;
     margin: 30px 0px 0px 0px;
     color: rgb(255, 112, 66);
     font-weight: 300;
-    text-align: left;
-    padding: 10px 70px;
 }
 
 .about p {
@@ -96,26 +93,25 @@ footer {
     z-index: -3;
 }
 
-footer .container{
-  display: flex;
-  justify-content: space-between;
-  padding: 0 5em;
+footer .container {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 5em;
 }
 
 footer .social a {
-  display: flex;
-  color: #b1b1b1;
-  text-decoration: none;
-  font-size: 27px;
-  padding: 3px;
-  position: relative;
-  top: 13px;
-  transition: all 0.5s ease;
+    display: flex;
+    color: #b1b1b1;
+    text-decoration: none;
+    font-size: 27px;
+    padding: 3px;
+    position: relative;
+    top: 13px;
+    transition: all 0.5s ease;
 }
 
-
 .round {
-    border-color: tomato;
+    border-color: #ff9433;
     border-style: solid;
     border-width: 2px;
     height: 50px;
@@ -763,27 +759,6 @@ input:focus~.highlight {
 
 /* pop up  */
 
-.open {
-    cursor: pointer;
-    width: auto;
-    height: auto;
-    border-radius: 3px;
-    display: inline-block;
-    text-align: center;
-    background: rgb(216, 112, 74);
-    z-index: 2;
-    position: absolute;
-    top: 59%;
-    left: 46.5%;
-    padding: 1%;
-    width: 7%;
-    color: whitesmoke !important;
-}
-
-.open:hover {
-    background-color: #333333;
-}
-
 .overlay {
     top: 0;
     left: 0;
@@ -902,7 +877,7 @@ input:focus~.highlight {
 .car h1 {
     text-align: center;
     font-weight: bold;
-    color: rgb(240, 117, 71);
+    color: #ff9433;
     padding: 10px 0px;
     margin-bottom: 30px;
     font-weight: 400;
@@ -917,9 +892,9 @@ input:focus~.highlight {
 .carText h1 {
     font-size: 45px;
     text-align: center;
-    color: rgb(240, 117, 71);
+    color: #ff9433;
     font-weight: 600;
-    border-bottom: 1px solid rgb(240, 117, 71);
+    border-bottom: 1px solid #ff9433;
     line-height: 73px;
     border-width: 11px;
 }
@@ -927,7 +902,7 @@ input:focus~.highlight {
 .carText h4 {
     font-size: 28px;
     text-align: center;
-    color: rgb(240, 117, 71);
+    color: #ff9433;
     ;
     font-weight: 600;
 }
@@ -992,21 +967,6 @@ input:focus~.highlight {
 
 .carText {
     position: relative;
-}
-
-.rent a {
-    background-color: transparent;
-    color: rgb(240, 117, 71);
-    border-style: solid;
-    border-color: rgb(240, 117, 71);
-}
-
-.rent a:hover {
-    background-color: transparent;
-    color: #ffffff;
-    border-style: solid;
-    border-color: transparent;
-    background-color: #f44336;
 }
 
 li span {
@@ -1081,7 +1041,7 @@ li span {
 
 .flip-card-front {
     /* background-color: rgb(255, 255, 255); */
-    color: #f44336;
+    color: #ff9433;
     /* box-shadow: 0 0 6px 0 #c3c3c3; */
     background: transparent;
 }
@@ -1145,22 +1105,45 @@ li span {
     color: #a9b1b3;
 }
 
-#home a {
-    padding: 0.5em 1em;
+.open {
+    cursor: pointer;
+    width: auto;
+    height: auto;
+    border-radius: 3px;
+    display: inline-block;
+    text-align: center;
+    /* background: rgb(216, 112, 74); */
+    z-index: 2;
+    position: absolute;
+    top: 59%;
+    left: 46.5%;
+    padding: 1%;
+    /* color: whitesmoke !important; */
+}
+
+#home a,
+.rent a,
+.open {
+    padding: .8em 1em;
     font-size: 0.8em;
-    color: #ffffff;
+    color: black;
     text-decoration: none;
     text-transform: uppercase;
     letter-spacing: 0.3em;
-    border: 1px solid #ffffff;
+    border: 1px solid #5f5f5f;
     transition: all 0.3s ease-in;
+    background-color: #ff9433;
+    font-weight: 700;
+    border-radius: 1.5em;
 }
 
 #home a:hover,
-#home a:active,
-#home a:focus {
-    color: #fff;
-    background-color: #000000;
+.rent a:hover,
+.open:hover {
+    color: #ffffff !important;
+    border: 1px solid #ffffff;
+    text-decoration: none;
+    background-color: black;
 }
 
 #home figure {
@@ -1548,7 +1531,7 @@ li span {
 }
 
 #menuToggle a:hover {
-    color: tomato;
+    color: #ff9433;
 }
 
 #menuToggle input {
@@ -1678,39 +1661,42 @@ li span {
 * And let's slide it in from the left
 */
 
-#menuToggle input:checked ~ ul {
-  -webkit-transform: none;
-  transform: none;
+#menuToggle input:checked~ul {
+    -webkit-transform: none;
+    transform: none;
 }
 
-.Icon{
-  background-color: #acb5b5;
-  padding: 0em;
-  margin: 0px;
-  width: 1em;
-  height: 2em;
+.Icon {
+    background-color: #acb5b5;
+    padding: 0em;
+    margin: 0px;
+    width: 1em;
+    height: 2em;
 }
 
-.facebook{
-  -webkit-mask: url(../images/icons/facebook.svg) no-repeat center;
-  mask: url(../images/icons/facebook.svg) no-repeat center;
+.facebook {
+    -webkit-mask: url(../images/icons/facebook.svg) no-repeat center;
+    mask: url(../images/icons/facebook.svg) no-repeat center;
 }
 
-.mail{
-  -webkit-mask: url(../images/icons/envelope.svg) no-repeat center;
-  mask: url(../images/icons/envelope.svg) no-repeat center;
-  width: 1.2em;
+.mail {
+    -webkit-mask: url(../images/icons/envelope.svg) no-repeat center;
+    mask: url(../images/icons/envelope.svg) no-repeat center;
+    width: 1.2em;
 }
 
-.call{
-  -webkit-mask: url(../images/icons/call.svg) no-repeat center;
-  mask: url(../images/icons/call.svg) no-repeat center;
-}
-.facebook:hover, .mail:hover, .call:hover{
-  background-color:  tomato;
+.call {
+    -webkit-mask: url(../images/icons/call.svg) no-repeat center;
+    mask: url(../images/icons/call.svg) no-repeat center;
 }
 
-h7{
+.facebook:hover,
+.mail:hover,
+.call:hover {
+    background-color: tomato;
+}
+
+h7 {
     margin: 0.6em 0.6em 0 0.6em;
     font-size: 0.65em;
     font-weight: 300;
