@@ -497,9 +497,16 @@ iframe {
     line-height: 1.2;
     text-align: right;
     position: absolute;
-    top: 14px;
+    top: 7px;
     left: -105px;
     width: 80px;
+}
+
+.dropDownLabel{
+  margin: 0.5em 0 0 0;
+    border-style: hidden;
+    border-bottom: 1px solid #d4d2d2;
+    padding-bottom: 4px;
 }
 
 
@@ -546,7 +553,7 @@ iframe {
 /*---------------------------------------------*/
 
 input.input100 {
-    height: 45px;
+    height: 30px;
 }
 
 textarea.input100 {
