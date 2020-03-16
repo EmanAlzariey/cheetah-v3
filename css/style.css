@@ -58,16 +58,17 @@ body {
 }
 
 .about h3 {
-    text-align: center;
-    padding: 15px 30px;
+    text-align: left;
+    padding: 0px 70px;
     margin: 30px 0px 0px 0px;
     color: rgb(255, 112, 66);
     font-weight: 300;
 }
 
 .about p {
+    text-align: left;
     color: #a98a74;
-    padding: 0px 70px;
+    padding: 5px 70px;
     font-size: medium;
     text-align: justify;
     font-weight: 400;
@@ -866,7 +867,7 @@ margin-bottom: 72px; */
     max-width: none;
     position: relative;
     width: 100%;
-    padding-bottom: 5em;
+    /* padding-bottom: 5em; */
     box-shadow: 0 0 20px 0 black;
 }
 
@@ -1121,29 +1122,41 @@ li span {
     /* color: whitesmoke !important; */
 }
 
+.subscribeBtn {
+    margin-top: 1em;
+}
+
 #home a,
 .rent a,
-.open {
+.open,
+.subscribeBtn {
     padding: .8em 1em;
     font-size: 0.8em;
-    color: black;
+    color: #0f0f0f;
     text-decoration: none;
     text-transform: uppercase;
     letter-spacing: 0.3em;
-    border: 1px solid #5f5f5f;
+    border: 1px solid #0f0f0f;
     transition: all 0.3s ease-in;
     background-color: #ff9433;
     font-weight: 700;
     border-radius: 1.5em;
 }
 
+.flexing {
+    display: flex;
+    justify-content: center;
+    padding-top: 2em;
+}
+
 #home a:hover,
 .rent a:hover,
-.open:hover {
+.open:hover,
+.subscribeBtn:hover {
     color: #ffffff !important;
     border: 1px solid #ffffff;
     text-decoration: none;
-    background-color: black;
+    background-color: #0f0f0f;
 }
 
 #home figure {
@@ -1677,23 +1690,27 @@ li span {
 .facebook {
     -webkit-mask: url(../images/icons/facebook.svg) no-repeat center;
     mask: url(../images/icons/facebook.svg) no-repeat center;
+    transition: all .3s ease;
 }
 
 .mail {
     -webkit-mask: url(../images/icons/envelope.svg) no-repeat center;
     mask: url(../images/icons/envelope.svg) no-repeat center;
+    transition: all .3s ease;
     width: 1.2em;
 }
 
 .call {
     -webkit-mask: url(../images/icons/call.svg) no-repeat center;
     mask: url(../images/icons/call.svg) no-repeat center;
+    transition: all .3s ease;
 }
 
 .facebook:hover,
 .mail:hover,
 .call:hover {
     background-color: tomato;
+    transition: all .3s ease;
 }
 
 h7 {
