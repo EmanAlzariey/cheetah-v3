@@ -893,9 +893,9 @@ margin-bottom: 72px; */
 .carText h1 {
     font-size: 45px;
     text-align: center;
-    color: #ff9433;
+    color: #fff;
     font-weight: 600;
-    border-bottom: 1px solid #ff9433;
+    border-bottom: 1px solid #fff;
     line-height: 73px;
     border-width: 11px;
 }
@@ -1130,7 +1130,7 @@ li span {
 .rent a,
 .open,
 .subscribeBtn {
-    padding: .8em 1em;
+    padding: .8em 3em;
     font-size: 0.8em;
     color: #0f0f0f;
     text-decoration: none;
