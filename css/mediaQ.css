@@ -1,0 +1,58 @@
+@media (max-width: 2560px) {
+  .post__header span,
+  strong span {
+    font-size: 2em;
+    position: relative;
+    right: -6em;
+  }
+  #home a,
+  .rent a,
+  .open,
+  .subscribeBtn {
+    font-size: 1.3em;
+  }
+  #menuToggle span {
+    width: 51px;
+    height: 9px;
+  }
+
+  .about p {
+    text-align: left;
+    color: #a98a74;
+    padding: 5px 70px;
+    font-size: xx-large;
+    text-align: justify;
+    font-weight: 400;
+  }
+
+  .about h3 {
+    font-size: -webkit-xxx-large;
+  }
+
+  .heading h1 {
+    color: #d8704a;
+    font-weight: 400;
+    font-size: 4em;
+  }
+
+  .singleService {
+    border-style: solid;
+    padding: 3em;
+    box-sizing: border-box;
+    margin: 2em;
+  }
+
+  .singleService h3 {
+    font-size: 2.2em;
+  }
+
+  .singleService p {
+    font-size: 2em;
+  }
+
+  .flexing {
+    display: flex;
+    justify-content: center;
+    padding-top: 10em;
+  }
+}
