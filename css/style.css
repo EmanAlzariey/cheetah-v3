@@ -968,6 +968,7 @@ margin-bottom: 72px; */
 
 .carText {
   position: relative;
+  top: -62px;
 }
 
 li span {
