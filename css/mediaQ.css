@@ -55,4 +55,10 @@
     justify-content: center;
     padding-top: 10em;
   }
+
+  footer .container {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 0;
+  }
 }
