@@ -152,4 +152,183 @@
     position: relative;
     right: -1em;
   }
+
+  #home a,
+  .rent a,
+  .open,
+  .subscribeBtn {
+    font-size: 0.8em;
+  }
+  #menuToggle span {
+    width: 30px;
+    height: 5px;
+  }
+
+  .about p {
+    text-align: left;
+    color: #a98a74;
+    padding: 1em 1em;
+    font-size: large;
+    text-align: justify;
+    font-weight: 400;
+  }
+
+  .about h3 {
+    font-size: x-large;
+    padding: 0em 1em;
+  }
+
+  .heading h1 {
+    color: #d8704a;
+    font-weight: 400;
+    font-size: 2em;
+  }
+
+  .singleService {
+    border-style: solid;
+    padding: 1em;
+    box-sizing: border-box;
+    margin: 1em;
+  }
+
+  .singleService h3 {
+    font-size: 1.2em;
+  }
+
+  .singleService p {
+    font-size: 1em;
+  }
+
+  .singleService img {
+    width: 40%;
+  }
+
+  .flexing {
+    display: flex;
+    justify-content: center;
+    padding-top: 0em;
+  }
+
+  .flip-card-container {
+    width: 100%;
+    perspective: 1000px;
+    display: table;
+    margin: 0;
+    max-width: none;
+    height: 40vh;
+  }
+
+  .flip-card-back {
+    padding: 29px;
+  }
+
+  .carText h1 {
+    font-size: 37px;
+  }
+
+  .post__link {
+    top: 67%;
+  }
+
+  .carText {
+    position: relative;
+    top: -2px;
+  }
+
+  footer .containerEn {
+    display: flex;
+    justify-content: space-around;
+  }
+}
+
+@media (max-width: 768px) {
+  .about p {
+    text-align: left;
+    color: #a98a74;
+    padding: 1em 1em;
+    font-size: 1em;
+    text-align: justify;
+    font-weight: 400;
+  }
+
+  .about h3 {
+    font-size: 1.11m;
+    padding: 0em 1em;
+  }
+
+  #services {
+    height: 552px;
+  }
+
+  .singleService {
+    border-style: solid;
+    padding: 1em;
+    box-sizing: border-box;
+    margin: 0em;
+  }
+
+  .singleService h3 {
+    font-size: 1em;
+  }
+
+  .singleService p {
+    font-size: 0.8em;
+  }
+
+  .singleService img {
+    width: 40%;
+    padding-bottom: 1em;
+  }
+
+  .carText {
+    position: relative;
+    top: 1px;
+    font-size: 0.8em;
+  }
+
+  .carText h1 {
+    font-size: 31px;
+  }
+
+  footer .containerEn {
+    flex-flow: column;
+  }
+
+  .fullSocial {
+    padding-top: 2em;
+  }
+}
+
+@media (max-width: 768px) {
+  .singleService {
+    margin: 1em;
+  }
+
+  .flip-card-front img {
+    width: 46%;
+  }
+
+  .flip-card-front {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+  }
+
+  .carText h1 {
+    font-size: 50px;
+  }
+
+  .flip-card-container {
+    height: 48vh;
+  }
+
+  .flip-card-back {
+    padding: 76px;
+  }
+
+  .flexing {
+    display: flex;
+    justify-content: center;
+    padding-top: 4em;
+  }
 }

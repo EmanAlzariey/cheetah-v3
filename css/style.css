@@ -217,7 +217,7 @@ footer form input[type="button"]:hover {
   }
 
   #about {
-    height: 700px;
+    /* height: 700px; */
     background-color: #0a0a0a;
     filter: brightness(1.5);
   }
@@ -1366,6 +1366,7 @@ li span {
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
+    width: 36%;
   }
 }
 
