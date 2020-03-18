@@ -52,13 +52,13 @@
   }
 
   .singleService img {
-    width: 100%;
+    width: 29%;
   }
 
   .flexing {
     display: flex;
     justify-content: center;
-    padding-top: 10em;
+    padding-top: 3em;
   }
 
   footer .container {
@@ -68,7 +68,7 @@
   }
 }
 
-@media (max-width: 1440px) {
+@media (max-width: 2000px) {
   .post__header span,
   strong span {
     font-size: 1em;
@@ -127,7 +127,7 @@
   .flexing {
     display: flex;
     justify-content: center;
-    padding-top: 0em;
+    padding-top: 7em;
   }
 
   .flip-card-container {
@@ -142,5 +142,14 @@
   footer .containerEn {
     display: flex;
     justify-content: space-around;
+  }
+}
+
+@media (max-width: 1024px) {
+  .post__header span,
+  strong span {
+    font-size: 1em;
+    position: relative;
+    right: -1em;
   }
 }
