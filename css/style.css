@@ -93,6 +93,17 @@ footer {
   z-index: -3;
 }
 
+footer .containerAr {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row-reverse;
+}
+
+footer .containerEn {
+  display: flex;
+  justify-content: space-between;
+}
+
 footer .social a {
   display: flex;
   color: #b1b1b1;
@@ -562,6 +573,8 @@ textarea.input100 {
   display: flex;
   flex-wrap: wrap;
   padding-top: 0px;
+  letter-spacing: normal;
+  font-family: inherit;
 }
 
 .contact100-form-btn {
@@ -593,6 +606,8 @@ textarea.input100 {
   position: relative;
   top: 50%;
   left: 0;
+  letter-spacing: normal;
+  font-family: inherit;
 }
 
 .contact100-form-btn i {
@@ -922,6 +937,8 @@ input:focus ~ .highlight {
   color: #fff;
   background-color: #faaa00;
   border-color: #faaa00;
+  letter-spacing: normal;
+  font-family: inherit;
 }
 
 .btn {
@@ -1039,10 +1056,9 @@ li span {
   background-color: rgb(255, 255, 255);
   color: rgb(20, 19, 19);
   transform: rotateY(180deg);
-  /* border-radius: :25%; */
   box-shadow: 0 0 6px 0 #000000;
   padding: 59px;
-  /* border-radius: :50%; */
+  height: fit-content;
 }
 
 .flip-card-front img {
@@ -1095,18 +1111,9 @@ li span {
 
 .open {
   cursor: pointer;
-  width: auto;
-  height: auto;
-  border-radius: 3px;
-  display: inline-block;
   text-align: center;
-  /* background: rgb(216, 112, 74); */
   z-index: 2;
   position: absolute;
-  top: 70%;
-  left: 46.5%;
-  padding: 1%;
-  /* color: whitesmoke !important; */
 }
 
 .subscribeBtn {
@@ -1128,6 +1135,8 @@ li span {
   font-weight: 700;
   border-radius: 4em 1em 4em 1em;
   border: 0px;
+  letter-spacing: normal;
+  font-family: inherit;
 }
 
 .flexing {
@@ -1370,7 +1379,6 @@ li span {
 }
 
 .post__header {
-  overflow: hidden;
   color: whitesmoke;
 }
 
