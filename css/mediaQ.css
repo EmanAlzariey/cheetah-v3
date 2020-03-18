@@ -15,7 +15,6 @@
     width: 51px;
     height: 9px;
   }
-  
 
   .about p {
     text-align: left;
@@ -49,6 +48,10 @@
 
   .singleService p {
     font-size: 2em;
+  }
+
+  .singleService img {
+    width: 100%;
   }
 
   .flexing {
@@ -86,18 +89,57 @@
     text-align: left;
     color: #a98a74;
     padding: 5px 70px;
-    font-size: xx-large;
+    font-size: x-large;
     text-align: justify;
     font-weight: 400;
   }
 
   .about h3 {
-    font-size: -webkit-xxx-large;
+    font-size: xx-large;
   }
 
   .heading h1 {
     color: #d8704a;
     font-weight: 400;
     font-size: 2em;
+  }
+
+  .singleService {
+    border-style: solid;
+    padding: 3em;
+    box-sizing: border-box;
+    margin: 2em;
+  }
+
+  .singleService h3 {
+    font-size: 1.7em;
+  }
+
+  .singleService p {
+    font-size: 1.2em;
+  }
+
+  .singleService img {
+    width: 40%;
+  }
+
+  .flexing {
+    display: flex;
+    justify-content: center;
+    padding-top: 0em;
+  }
+
+  .flip-card-container {
+    width: 100%;
+    perspective: 1000px;
+    display: table;
+    margin: 0;
+    max-width: none;
+    height: 45vh;
+  }
+
+  footer .containerEn {
+    display: flex;
+    justify-content: space-around;
   }
 }
