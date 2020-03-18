@@ -22,6 +22,7 @@ body {
     z-index: -3;
 }
 
+
 #home {
     /* background-color: #cb6c283b; */
 }
@@ -94,10 +95,15 @@ footer {
     z-index: -3;
 }
 
-footer .container {
+footer .containerAr {
     display: flex;
     justify-content: space-between;
-    padding: 0 5em;
+    flex-direction: row-reverse;
+}
+
+footer .containerEn {
+    display: flex;
+    justify-content: space-between;
 }
 
 footer .social a {
@@ -579,7 +585,10 @@ textarea.input100 {
     display: flex;
     flex-wrap: wrap;
     padding-top: 0px;
+    letter-spacing: normal;
+    font-family: inherit;
 }
+
 
 .contact100-form-btn {
     display: -webkit-box;
@@ -610,6 +619,8 @@ textarea.input100 {
     position: relative;
     top: 50%;
     left: 0;
+    letter-spacing: normal;
+    font-family: inherit;
 }
 
 .contact100-form-btn i {
@@ -936,6 +947,8 @@ input:focus~.highlight {
     color: #fff;
     background-color: #faaa00;
     border-color: #faaa00;
+    letter-spacing: normal;
+    font-family: inherit;
 }
 
 .btn {
@@ -1143,7 +1156,8 @@ li span {
     font-weight: 700;
     border-radius: 4em 1em 4em 1em;
     border: 0px;
-
+    letter-spacing: normal;
+    font-family: inherit;
 }
 
 
