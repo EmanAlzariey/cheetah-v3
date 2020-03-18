@@ -1066,10 +1066,9 @@ li span {
     background-color: rgb(255, 255, 255);
     color: rgb(20, 19, 19);
     transform: rotateY(180deg);
-    /* border-radius: :25%; */
     box-shadow: 0 0 6px 0 #000000;
     padding: 59px;
-    /* border-radius: :50%; */
+    height: fit-content;
 }
 
 .flip-card-front img {
