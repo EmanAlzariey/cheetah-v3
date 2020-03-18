@@ -62,3 +62,41 @@
     padding: 0 0;
   }
 }
+
+@media (max-width: 1440px) {
+  .post__header span,
+  strong span {
+    font-size: 1em;
+    position: relative;
+    right: -6em;
+  }
+  #home a,
+  .rent a,
+  .open,
+  .subscribeBtn {
+    font-size: 0.8em;
+  }
+  #menuToggle span {
+    width: 30px;
+    height: 5px;
+  }
+
+  .about p {
+    text-align: left;
+    color: #a98a74;
+    padding: 5px 70px;
+    font-size: xx-large;
+    text-align: justify;
+    font-weight: 400;
+  }
+
+  .about h3 {
+    font-size: -webkit-xxx-large;
+  }
+
+  .heading h1 {
+    color: #d8704a;
+    font-weight: 400;
+    font-size: 2em;
+  }
+}

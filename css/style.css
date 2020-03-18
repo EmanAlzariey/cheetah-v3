@@ -93,12 +93,6 @@ footer {
   z-index: -3;
 }
 
-footer .container {
-  display: flex;
-  justify-content: space-between;
-  padding: 0 5em;
-}
-
 footer .social a {
   display: flex;
   color: #b1b1b1;
