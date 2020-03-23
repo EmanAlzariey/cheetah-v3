@@ -197,7 +197,7 @@
     border-style: solid;
     padding: 1em;
     box-sizing: border-box;
-    margin: 1em;
+    margin: 0em;
   }
 
   .singleService h3 {
@@ -215,7 +215,7 @@
   .flexing {
     display: flex;
     justify-content: center;
-    padding-top: 0em;
+    padding-top: 8em;
   }
 
   .flip-card-container {
@@ -318,12 +318,8 @@
     width: 70%;
   }
 
-  .singleService {
-    margin: 1em;
-  }
-
   .flip-card-front img {
-    width: 46%;
+    width: 98%;
   }
 
   .flip-card-front {
@@ -339,15 +335,47 @@
   .flip-card-container {
     height: 48vh;
   }
-
   .flip-card-back {
-    padding: 76px;
+    padding: 17px;
   }
 
   .flexing {
     display: flex;
     justify-content: center;
     padding-top: 4em;
+  }
+}
+
+@media (max-width: 767px) {
+  .singleService {
+    border-style: solid;
+    padding: 1em;
+    box-sizing: border-box;
+    margin: 1em;
+  }
+
+  .flip-card-front img {
+    width: 59%;
+  }
+
+  .flip-card-container {
+    height: 82vh;
+  }
+
+  .flip-card-back {
+    padding: 82px;
+  }
+
+  .carText h1 {
+    font-size: 50px;
+    position: relative;
+    top: -28px;
+  }
+
+  .carText h1 {
+    font-size: 50px;
+    position: relative;
+    top: -46px;
   }
 }
 
@@ -401,5 +429,14 @@
     display: flex;
     justify-content: center;
     padding-top: 2em;
+  }
+}
+
+@media (max-width: 375px) {
+  footer form input[type="text"] {
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    margin-top: 22px;
+    width: 112%;
   }
 }
