@@ -478,11 +478,6 @@ iframe {
 
 .wrap-input100 {
   width: 100%;
-  /* position: relative; */
-  /* border-bottom: 1px solid #b2b2b2;
-  margin-bottom: 22px; */
-  /* top: 5%; */
-  margin-bottom: -89px;
 }
 
 .label-input100 {
@@ -497,6 +492,24 @@ iframe {
   width: 80px;
 }
 
+.label-input100AR {
+  font-family: Poppins-Regular;
+  font-size: 15px;
+  color: #808080;
+  line-height: 1.2;
+  text-align: right;
+  position: absolute;
+  top: 7px;
+  right: 0px;
+  width: 80px;
+}
+
+.RightLeft{
+  direction: rtl;
+  position: relative;
+  left: -85px;
+}
+
 .dropDownLabel {
   margin: 0.5em 0 0 0;
   border-style: hidden;
@@ -506,7 +519,7 @@ iframe {
 
 /*---------------------------------------------*/
 
-.input100 {
+.input100, .input100AR {
   font-family: Poppins-Regular;
   font-size: 15px;
   color: #555555;
@@ -547,10 +560,28 @@ input.input100 {
   height: 30px;
 }
 
+input.input100AR {
+  height: 30px;
+  position: relative;
+  left: -85px;
+  text-align: right;
+}
+
 textarea.input100 {
   min-height: 115px;
   padding-top: 14px;
   padding-bottom: 13px;
+  border: 1px solid #eae6e6;
+}
+
+textarea.input100AR {
+  min-height: 115px;
+  padding-top: 14px;
+  padding-bottom: 13px;
+  position: relative;
+  left: -85px;
+  border: 1px solid #eae6e6;
+  text-align: right;
 }
 
 .input100:focus + .focus-input100::before {
@@ -600,11 +631,8 @@ textarea.input100 {
   transition: all 0.4s;
   /* keep this */
   z-index: 2;
-  position: absolute;
-  top: 50%;
-  left: 48%;
   position: relative;
-  top: 50%;
+  top: 20%;
   left: 0;
   letter-spacing: normal;
   font-family: inherit;
