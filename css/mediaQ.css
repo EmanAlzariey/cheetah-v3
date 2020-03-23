@@ -135,7 +135,7 @@
     display: table;
     margin: 0;
     max-width: none;
-    height: 45vh;
+    height: 50vh;
   }
 
   footer .containerEn {
@@ -254,7 +254,7 @@
     display: table;
     margin: 0;
     max-width: none;
-    height: 40vh;
+    height: 50vh;
   }
 
   .flip-card-back {
@@ -319,6 +319,10 @@
     padding-bottom: 1em;
   }
 
+  .flip-card-container{
+    height: 57vh;
+  }
+
   .carText {
     position: relative;
     top: 1px;
@@ -363,7 +367,7 @@
   }
 
   .flip-card-container {
-    height: 48vh;
+    /* height: 48vh; */
   }
   .flip-card-back {
     padding: 17px;
@@ -389,7 +393,7 @@
   }
 
   .flip-card-container {
-    height: 82vh;
+    /* height: 82vh; */
   }
 
   .flip-card-back {
@@ -436,7 +440,7 @@
   }
 
   .flip-card-container {
-    height: 71vh;
+    height: 41vh;
   }
 
   .carText {
@@ -469,6 +473,11 @@
     margin-top: 22px;
     width: 112%;
   }
+
+  .flip-card-container {
+    height: 48vh;
+  }
+
 }
 
 @media (max-width: 320px) {

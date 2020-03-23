@@ -226,8 +226,7 @@ footer form input[type="button"]:hover {
 .heading {
   color: #d49300;
   text-align: center;
-  padding-bottom: 3em;
-  padding-top: 3em;
+  padding-top: 1em;
 }
 
 #contactUs {
@@ -925,7 +924,7 @@ input:focus ~ .highlight {
 .carText h1 {
   font-size: 45px;
   text-align: center;
-  color: #fff;
+  color: black;
   font-weight: 600;
   line-height: 73px;
   border-width: 11px;
@@ -1013,7 +1012,7 @@ li span {
   display: table;
   margin: 0;
   max-width: none;
-  height: 62vh;
+  height: 30vh;
 }
 
 @media (max-width: 992px) {
@@ -1021,7 +1020,7 @@ li span {
     display: table;
     margin: 0;
     max-width: none;
-    height: 43vh;
+    /* height: 43vh; */
   }
 }
 
@@ -1030,7 +1029,7 @@ li span {
     display: table;
     margin: 0;
     max-width: none;
-    height: 82vh;
+    /* height: 82vh; */
     margin-bottom: 3em;
   }
 }
@@ -1040,7 +1039,7 @@ li span {
     display: table;
     margin: 0;
     max-width: none;
-    height: 50vh;
+    /* height: 50vh; */
     margin-bottom: 3em;
   }
 }
@@ -1719,7 +1718,7 @@ li span {
 }
 
 nav {
-  height: 9vh;
+  height: 58px;
   background-color: #070707;
   width: 100%;
   position: fixed;
