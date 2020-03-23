@@ -13,8 +13,8 @@
     font-size: 1.3em;
   }
   #menuToggle span {
-    width: 51px;
-    height: 9px;
+    width: 26px;
+    height: 3px;
   }
 
   .about p {
@@ -146,6 +146,17 @@
 }
 
 @media (max-width: 1440px) {
+  .language {
+    z-index: 2;
+    position: fixed;
+    top: 1.25em;
+    right: 2em;
+    background-color: transparent;
+    border: none;
+    color: #f47521;
+    font-size: 1.3em;
+  }
+
   .singleService {
     border-style: solid;
     padding: 2em;
@@ -155,6 +166,17 @@
 }
 
 @media (max-width: 1024px) {
+  .language {
+    z-index: 2;
+    position: fixed;
+    top: 1.25em;
+    right: 2em;
+    background-color: transparent;
+    border: none;
+    color: #f47521;
+    font-size: 1.1em;
+  }
+
   .post__content {
     padding: 0 4em;
     position: absolute;
@@ -178,8 +200,8 @@
     font-size: 0.8em;
   }
   #menuToggle span {
-    width: 30px;
-    height: 5px;
+    width: 29px;
+    height: 3px;
   }
 
   .about p {
@@ -447,5 +469,11 @@
     border-bottom-width: 1px;
     margin-top: 22px;
     width: 112%;
+  }
+}
+
+@media (max-width: 320px) {
+  #menu {
+    width: 329px;
   }
 }
