@@ -236,7 +236,7 @@
   }
 
   .post__link {
-    top: 67%;
+    top: 76%;
   }
 
   .carText {
@@ -353,7 +353,7 @@
 
 @media (max-width: 425px) {
   .post__content {
-    padding: 0 4em;
+    padding: 0px 2em;
     position: absolute;
     left: 50%;
     top: 50%;
@@ -363,5 +363,43 @@
 
   #home {
     height: 78vh;
+  }
+
+  .post__link {
+    top: 81%;
+  }
+
+  .abt {
+    padding-bottom: 1em;
+  }
+
+  .flip-card-front img {
+    width: 80%;
+  }
+
+  .flip-card-container {
+    height: 71vh;
+  }
+
+  .carText {
+    position: relative;
+    top: -14px;
+    font-size: 0.8em;
+  }
+
+  .flip-card-back {
+    padding: 50px;
+  }
+
+  .carText h1 {
+    font-size: 50px;
+    position: relative;
+    top: -28px;
+  }
+
+  .flexing {
+    display: flex;
+    justify-content: center;
+    padding-top: 2em;
   }
 }
