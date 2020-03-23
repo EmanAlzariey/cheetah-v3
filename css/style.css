@@ -927,7 +927,6 @@ input:focus ~ .highlight {
   text-align: center;
   color: #fff;
   font-weight: 600;
-  border-bottom: 1px solid #fff;
   line-height: 73px;
   border-width: 11px;
 }
@@ -1224,6 +1223,15 @@ li span {
   height: 100vh;
   width: 100%;
   background-color: #000000a6;
+}
+
+.language option{
+  /* background-color: #fff;
+  color: #f47521;  */
+}
+
+.language:focus{
+  outline-color: #f47521
 }
 
 /**
