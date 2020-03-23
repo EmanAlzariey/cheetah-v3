@@ -1,0 +1,451 @@
+@media (max-width: 2560px) {
+  .post__header span,
+  strong span {
+    font-size: 2em;
+    position: relative;
+    right: -1em;
+  }
+
+  #home a,
+  .rent a,
+  .open,
+  .subscribeBtn {
+    font-size: 1.3em;
+  }
+  #menuToggle span {
+    width: 51px;
+    height: 9px;
+  }
+
+  .about p {
+    text-align: left;
+    color: #a98a74;
+    padding: 5px 70px;
+    font-size: xx-large;
+    text-align: justify;
+    font-weight: 400;
+  }
+
+  .about h3 {
+    font-size: -webkit-xxx-large;
+  }
+
+  .heading h1 {
+    color: #d8704a;
+    font-weight: 400;
+    font-size: 4em;
+  }
+
+  .singleService {
+    border-style: solid;
+    padding: 3em;
+    box-sizing: border-box;
+    margin: 2em;
+  }
+
+  .singleService h3 {
+    font-size: 2.2em;
+  }
+
+  .singleService p {
+    font-size: 2em;
+  }
+
+  .singleService img {
+    width: 29%;
+  }
+
+  .flexing {
+    display: flex;
+    justify-content: center;
+    padding-top: 3em;
+  }
+
+  footer .container {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 0;
+  }
+}
+
+@media (max-width: 2000px) {
+  .post__header span,
+  strong span {
+    font-size: 1em;
+    position: relative;
+    right: -1em;
+  }
+  #home a,
+  .rent a,
+  .open,
+  .subscribeBtn {
+    font-size: 0.8em;
+  }
+  #menuToggle span {
+    width: 30px;
+    height: 5px;
+  }
+
+  .about p {
+    text-align: left;
+    color: #a98a74;
+    padding: 5px 70px;
+    font-size: x-large;
+    text-align: justify;
+    font-weight: 400;
+  }
+
+  .about h3 {
+    font-size: xx-large;
+  }
+
+  .heading h1 {
+    color: #d8704a;
+    font-weight: 400;
+    font-size: 2em;
+  }
+
+  .singleService {
+    border-style: solid;
+    padding: 3em;
+    box-sizing: border-box;
+    margin: 2em;
+  }
+
+  .singleService h3 {
+    font-size: 1.7em;
+  }
+
+  .singleService p {
+    font-size: 1.2em;
+  }
+
+  .singleService img {
+    width: 40%;
+  }
+
+  .flexing {
+    display: flex;
+    justify-content: center;
+    padding-top: 7em;
+  }
+
+  .flip-card-container {
+    width: 100%;
+    perspective: 1000px;
+    display: table;
+    margin: 0;
+    max-width: none;
+    height: 45vh;
+  }
+
+  footer .containerEn {
+    display: flex;
+    justify-content: space-around;
+  }
+}
+
+@media (max-width: 1440px) {
+  .singleService {
+    border-style: solid;
+    padding: 2em;
+    box-sizing: border-box;
+    margin: 1em;
+  }
+}
+
+@media (max-width: 1024px) {
+  .post__content {
+    padding: 0 4em;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 52%;
+  }
+
+  .post__header span,
+  strong span {
+    font-size: 1em;
+    position: relative;
+    right: -1em;
+  }
+
+  #home a,
+  .rent a,
+  .open,
+  .subscribeBtn {
+    font-size: 0.8em;
+  }
+  #menuToggle span {
+    width: 30px;
+    height: 5px;
+  }
+
+  .about p {
+    text-align: left;
+    color: #a98a74;
+    padding: 1em 1em;
+    font-size: large;
+    text-align: justify;
+    font-weight: 400;
+  }
+
+  .about h3 {
+    font-size: x-large;
+    padding: 0em 1em;
+  }
+
+  .heading h1 {
+    color: #d8704a;
+    font-weight: 400;
+    font-size: 2em;
+  }
+
+  .singleService {
+    border-style: solid;
+    padding: 1em;
+    box-sizing: border-box;
+    margin: 0em;
+  }
+
+  .singleService h3 {
+    font-size: 1.2em;
+  }
+
+  .singleService p {
+    font-size: 1em;
+  }
+
+  .singleService img {
+    width: 40%;
+  }
+
+  .flexing {
+    display: flex;
+    justify-content: center;
+    padding-top: 8em;
+  }
+
+  .flip-card-container {
+    width: 100%;
+    perspective: 1000px;
+    display: table;
+    margin: 0;
+    max-width: none;
+    height: 40vh;
+  }
+
+  .flip-card-back {
+    padding: 29px;
+  }
+
+  .carText h1 {
+    font-size: 37px;
+  }
+
+  .post__link {
+    top: 76%;
+  }
+
+  .carText {
+    position: relative;
+    top: -2px;
+  }
+
+  footer .containerEn {
+    display: flex;
+    justify-content: space-around;
+  }
+}
+
+@media (max-width: 768px) {
+  .about p {
+    text-align: left;
+    color: #a98a74;
+    padding: 1em 1em;
+    font-size: 1em;
+    text-align: justify;
+    font-weight: 400;
+  }
+
+  .about h3 {
+    font-size: 1.11m;
+    padding: 0em 1em;
+  }
+
+  #services {
+    height: 552px;
+  }
+
+  .singleService {
+    border-style: solid;
+    padding: 1em;
+    box-sizing: border-box;
+    margin: 0em;
+  }
+
+  .singleService h3 {
+    font-size: 1em;
+  }
+
+  .singleService p {
+    font-size: 0.8em;
+  }
+
+  .singleService img {
+    width: 40%;
+    padding-bottom: 1em;
+  }
+
+  .carText {
+    position: relative;
+    top: 1px;
+    font-size: 0.8em;
+  }
+
+  .carText h1 {
+    font-size: 31px;
+  }
+
+  footer .containerEn {
+    flex-flow: column;
+  }
+
+  .fullSocial {
+    padding-top: 2em;
+  }
+}
+
+@media (max-width: 768px) {
+  .post__content {
+    padding: 0 4em;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 70%;
+  }
+
+  .flip-card-front img {
+    width: 98%;
+  }
+
+  .flip-card-front {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+  }
+
+  .carText h1 {
+    font-size: 50px;
+  }
+
+  .flip-card-container {
+    height: 48vh;
+  }
+  .flip-card-back {
+    padding: 17px;
+  }
+
+  .flexing {
+    display: flex;
+    justify-content: center;
+    padding-top: 4em;
+  }
+}
+
+@media (max-width: 767px) {
+  .singleService {
+    border-style: solid;
+    padding: 1em;
+    box-sizing: border-box;
+    margin: 1em;
+  }
+
+  .flip-card-front img {
+    width: 59%;
+  }
+
+  .flip-card-container {
+    height: 82vh;
+  }
+
+  .flip-card-back {
+    padding: 82px;
+  }
+
+  .carText h1 {
+    font-size: 50px;
+    position: relative;
+    top: -28px;
+  }
+
+  .carText h1 {
+    font-size: 50px;
+    position: relative;
+    top: -46px;
+  }
+}
+
+@media (max-width: 425px) {
+  .post__content {
+    padding: 0px 2em;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+  }
+
+  #home {
+    height: 78vh;
+  }
+
+  .post__link {
+    top: 81%;
+  }
+
+  .abt {
+    padding-bottom: 1em;
+  }
+
+  .flip-card-front img {
+    width: 80%;
+  }
+
+  .flip-card-container {
+    height: 71vh;
+  }
+
+  .carText {
+    position: relative;
+    top: -14px;
+    font-size: 0.8em;
+  }
+
+  .flip-card-back {
+    padding: 50px;
+  }
+
+  .carText h1 {
+    font-size: 50px;
+    position: relative;
+    top: -28px;
+  }
+
+  .flexing {
+    display: flex;
+    justify-content: center;
+    padding-top: 2em;
+  }
+}
+
+@media (max-width: 375px) {
+  footer form input[type="text"] {
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    margin-top: 22px;
+    width: 112%;
+  }
+}
