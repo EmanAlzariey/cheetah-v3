@@ -1614,8 +1614,8 @@ li span {
 
 #menuToggle {
   position: fixed;
-  top: 26px;
-  left: 26px;
+  top: 35px;
+  right: 10px;
 }
 
 /*
@@ -1647,7 +1647,7 @@ li span {
   width: 290px;
   height: 107vh;
   margin: -100px 0 0 -50px;
-  padding: 90px 0px 50px 19px;
+  padding: 107px 50px 50px 30px;
   background: #ededed;
   list-style-type: none;
   -webkit-font-smoothing: antialiased;
@@ -1660,6 +1660,12 @@ li span {
   transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
   transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1),
     -webkit-transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
+}
+
+#menu li {
+  padding: 14% 0;
+  font-size: 22px;
+  text-align: center;
 }
 
 #menu li:focus + #menuToggle input:checked ~ ul {
@@ -1676,19 +1682,6 @@ li span {
   transform: none;
 }
 
-#menu li {
-  padding: 10% 0;
-  font-size: 22px;
-  text-align: center;
-}
-
-nav {
-  height: 13vh;
-  background-color: #070707;
-  width: 100%;
-  position: fixed;
-}
-
 .language {
   z-index: 2;
   position: fixed;
@@ -1697,7 +1690,7 @@ nav {
   background-color: transparent;
   border: none;
   color: #f47521;
-  font-size: 1em;
+  font-size: 1.3em;
 }
 
 .Icon {
