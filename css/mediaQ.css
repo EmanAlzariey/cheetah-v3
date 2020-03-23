@@ -145,6 +145,15 @@
   }
 }
 
+@media (max-width: 1440px) {
+  .singleService {
+    border-style: solid;
+    padding: 2em;
+    box-sizing: border-box;
+    margin: 1em;
+  }
+}
+
 @media (max-width: 1024px) {
   .post__content {
     padding: 0 4em;

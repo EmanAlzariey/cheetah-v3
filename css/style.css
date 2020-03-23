@@ -1685,8 +1685,12 @@ li span {
 .language {
   z-index: 2;
   position: fixed;
-  top: 2.25em;
+  top: 1.25em;
   right: 2em;
+  background-color: transparent;
+  border: none;
+  color: #f47521;
+  font-size: 1.3em;
 }
 
 .Icon {
