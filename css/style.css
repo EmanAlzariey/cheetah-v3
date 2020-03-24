@@ -503,7 +503,7 @@ iframe {
   width: 80px;
 }
 
-.RightLeft{
+.RightLeft {
   direction: rtl;
   position: relative;
   left: -85px;
@@ -518,7 +518,8 @@ iframe {
 
 /*---------------------------------------------*/
 
-.input100, .input100AR {
+.input100,
+.input100AR {
   font-family: Poppins-Regular;
   font-size: 15px;
   color: #555555;
@@ -615,14 +616,8 @@ textarea.input100AR {
   display: flex;
   justify-content: center;
   align-items: center;
-  /* padding: 0 20px; */
-  min-width: 200px;
-  height: 50px;
-  background: rgb(216, 112, 74);
-  border-radius: 20px;
-  font-family: Poppins-Regular;
-  font-size: 16px;
-  color: #fff;
+  min-width: 159px;
+  height: 43px;
   line-height: 1.2;
   -webkit-transition: all 0.4s;
   -o-transition: all 0.4s;
@@ -632,9 +627,24 @@ textarea.input100AR {
   z-index: 2;
   position: relative;
   top: 20%;
-  left: 0;
+  left: 6%;
   letter-spacing: normal;
   font-family: inherit;
+  cursor: pointer;
+  text-align: center;
+  padding: 0.8em 3em;
+  font-size: 0.8em;
+  color: #0f0f0f;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: all 0.3s ease-in;
+  background-color: black;
+  font-weight: 700;
+  border-radius: 4em 1em 4em 1em;
+  border: 0px;
+  letter-spacing: normal;
+  font-family: inherit;
+  color: whitesmoke;
 }
 
 .contact100-form-btn i {
@@ -645,7 +655,12 @@ textarea.input100AR {
 }
 
 .contact100-form-btn:hover {
-  background-color: #333333;
+  color: #0f0f0f !important;
+  /* border: 1px solid #ffffff; */
+  text-decoration: none;
+  background-color: #f47920;
+  transform: scale(1.1);
+  transition: all 0.2s ease-in-out;
 }
 
 .contact100-form-btn:hover i {
@@ -839,6 +854,7 @@ input:focus ~ .highlight {
   width: 100%;
   background-color: #e0e0e0;
   padding-bottom: 5em;
+  box-shadow: 0 0 6px 0 grey;
 }
 
 .singleService {
@@ -892,14 +908,7 @@ input:focus ~ .highlight {
 /*Cars*/
 
 #cars {
-  background-color: #070707;
-  display: table;
-  margin: 0;
-  max-width: none;
-  position: relative;
-  width: 100%;
-  /* padding-bottom: 5em; */
-  box-shadow: 0 0 20px 0 black;
+  padding-bottom: 2em;
 }
 
 .mt {
@@ -932,9 +941,10 @@ input:focus ~ .highlight {
 
 .carText h4 {
   font-size: 28px;
-  text-align: center;
-  color: #ff9433;
+  text-align: left;
+  color: #111;
   font-weight: 600;
+  padding-bottom: 0.3em;
 }
 
 .carText ul {
@@ -944,7 +954,7 @@ input:focus ~ .highlight {
 .carText ul li {
   border-bottom: 1px solid #efefef;
   font-weight: bold;
-  margin-bottom: 32px;
+  margin-bottom: 6px;
 }
 
 .carImg img {
@@ -999,11 +1009,11 @@ input:focus ~ .highlight {
 
 .carText {
   position: relative;
-  top: -62px;
+  top: -5px;
 }
 
 li span {
-  font-weight: 500;
+  font-weight: 100;
 }
 
 .flip-card-container {
@@ -1083,8 +1093,9 @@ li span {
   color: rgb(20, 19, 19);
   transform: rotateY(180deg);
   box-shadow: 0 0 6px 0 #000000;
-  padding: 59px;
+  padding: 34px;
   height: fit-content;
+  top: 2px;
 }
 
 .flip-card-front img {
@@ -1140,6 +1151,19 @@ li span {
   text-align: center;
   z-index: 2;
   position: absolute;
+  padding: 0.8em 3em;
+  font-size: 0.8em;
+  color: #0f0f0f;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 0.3em;
+  transition: all 0.3s ease-in;
+  background-color: black;
+  font-weight: 700;
+  border-radius: 4em 1em 4em 1em;
+  border: 0px;
+  letter-spacing: normal;
+  font-family: inherit;
 }
 
 .subscribeBtn {
@@ -1148,7 +1172,6 @@ li span {
 
 #home a,
 .rent a,
-.open,
 .subscribeBtn {
   padding: 0.8em 3em;
   font-size: 0.8em;
@@ -1181,6 +1204,14 @@ li span {
   background-color: #f47920;
   transform: scale(1.1);
   transition: all 0.2s ease-in-out;
+}
+
+.rent {
+  /* text-align: center; */
+}
+
+.owl-height {
+  height: 63vh !important;
 }
 
 #home figure {
@@ -1224,13 +1255,13 @@ li span {
   background-color: #000000a6;
 }
 
-.language option{
+.language option {
   /* background-color: #fff;
   color: #f47521;  */
 }
 
-.language:focus{
-  outline-color: #f47521
+.language:focus {
+  outline-color: #f47521;
 }
 
 /**
@@ -1783,4 +1814,14 @@ h7 {
   height: 2em;
   -webkit-mask: url(../images/icons/close.svg) no-repeat center;
   mask: url(../images/icons/close.svg) no-repeat center;
+}
+
+.price {
+  color: #093f79;
+  font-weight: 400;
+  font-size: 1.4em;
+}
+
+.headingServices {
+  padding: 3em 0em;
 }
