@@ -503,7 +503,7 @@ iframe {
   width: 80px;
 }
 
-.RightLeft{
+.RightLeft {
   direction: rtl;
   position: relative;
   left: -85px;
@@ -518,7 +518,8 @@ iframe {
 
 /*---------------------------------------------*/
 
-.input100, .input100AR {
+.input100,
+.input100AR {
   font-family: Poppins-Regular;
   font-size: 15px;
   color: #555555;
@@ -940,9 +941,10 @@ input:focus ~ .highlight {
 
 .carText h4 {
   font-size: 28px;
-  text-align: center;
-  color: #ff9433;
+  text-align: left;
+  color: #111;
   font-weight: 600;
+  padding-bottom: 0.3em;
 }
 
 .carText ul {
@@ -952,7 +954,7 @@ input:focus ~ .highlight {
 .carText ul li {
   border-bottom: 1px solid #efefef;
   font-weight: bold;
-  margin-bottom: 32px;
+  margin-bottom: 6px;
 }
 
 .carImg img {
@@ -1007,11 +1009,11 @@ input:focus ~ .highlight {
 
 .carText {
   position: relative;
-  top: -62px;
+  top: -5px;
 }
 
 li span {
-  font-weight: 500;
+  font-weight: 100;
 }
 
 .flip-card-container {
@@ -1091,8 +1093,9 @@ li span {
   color: rgb(20, 19, 19);
   transform: rotateY(180deg);
   box-shadow: 0 0 6px 0 #000000;
-  padding: 59px;
+  padding: 34px;
   height: fit-content;
+  top: 2px;
 }
 
 .flip-card-front img {
@@ -1203,6 +1206,14 @@ li span {
   transition: all 0.2s ease-in-out;
 }
 
+.rent {
+  /* text-align: center; */
+}
+
+.owl-height {
+  height: 63vh !important;
+}
+
 #home figure {
   margin: 0;
 }
@@ -1244,13 +1255,13 @@ li span {
   background-color: #000000a6;
 }
 
-.language option{
+.language option {
   /* background-color: #fff;
   color: #f47521;  */
 }
 
-.language:focus{
-  outline-color: #f47521
+.language:focus {
+  outline-color: #f47521;
 }
 
 /**
@@ -1803,4 +1814,14 @@ h7 {
   height: 2em;
   -webkit-mask: url(../images/icons/close.svg) no-repeat center;
   mask: url(../images/icons/close.svg) no-repeat center;
+}
+
+.price {
+  color: #093f79;
+  font-weight: 400;
+  font-size: 1.4em;
+}
+
+.headingServices {
+  padding: 3em 0em;
 }
