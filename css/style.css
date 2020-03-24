@@ -615,14 +615,8 @@ textarea.input100AR {
   display: flex;
   justify-content: center;
   align-items: center;
-  /* padding: 0 20px; */
-  min-width: 200px;
-  height: 50px;
-  background: rgb(216, 112, 74);
-  border-radius: 20px;
-  font-family: Poppins-Regular;
-  font-size: 16px;
-  color: #fff;
+  min-width: 159px;
+  height: 43px;
   line-height: 1.2;
   -webkit-transition: all 0.4s;
   -o-transition: all 0.4s;
@@ -632,9 +626,24 @@ textarea.input100AR {
   z-index: 2;
   position: relative;
   top: 20%;
-  left: 0;
+  left: 6%;
   letter-spacing: normal;
   font-family: inherit;
+  cursor: pointer;
+  text-align: center;
+  padding: 0.8em 3em;
+  font-size: 0.8em;
+  color: #0f0f0f;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: all 0.3s ease-in;
+  background-color: black;
+  font-weight: 700;
+  border-radius: 4em 1em 4em 1em;
+  border: 0px;
+  letter-spacing: normal;
+  font-family: inherit;
+  color: whitesmoke;
 }
 
 .contact100-form-btn i {
@@ -645,7 +654,12 @@ textarea.input100AR {
 }
 
 .contact100-form-btn:hover {
-  background-color: #333333;
+  color: #0f0f0f !important;
+  /* border: 1px solid #ffffff; */
+  text-decoration: none;
+  background-color: #f47920;
+  transform: scale(1.1);
+  transition: all 0.2s ease-in-out;
 }
 
 .contact100-form-btn:hover i {
