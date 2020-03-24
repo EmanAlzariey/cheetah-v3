@@ -333,7 +333,10 @@ function openBox() {
     j(overlayCls).fadeOut(); //Fade out when closebutton is clicked
   });
 
-  j(document).keyup(function (e) {
+  // j(document).click(function () {
+  //   j(overlayCls).fadeOut(); //Fade out when closebutton is clicked
+  // });
+  j(window).keyup(function (e) {
     if (e.keyCode == 27) {
       // Close lightbox when escape key is clicked
       j(overlayCls).fadeOut();
@@ -828,6 +831,9 @@ const arr = ["Rent Clean Cars", "Alternative cars in case of breakdowns and acci
 handleTyping(arr);
 
 //nav script
+
+
+
 
 
 
