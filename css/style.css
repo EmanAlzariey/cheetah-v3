@@ -839,6 +839,7 @@ input:focus ~ .highlight {
   width: 100%;
   background-color: #e0e0e0;
   padding-bottom: 5em;
+  box-shadow: 0 0 6px 0 grey;
 }
 
 .singleService {
@@ -892,14 +893,7 @@ input:focus ~ .highlight {
 /*Cars*/
 
 #cars {
-  background-color: #070707;
-  display: table;
-  margin: 0;
-  max-width: none;
-  position: relative;
-  width: 100%;
-  /* padding-bottom: 5em; */
-  box-shadow: 0 0 20px 0 black;
+  padding-bottom: 2em;
 }
 
 .mt {
@@ -1140,6 +1134,19 @@ li span {
   text-align: center;
   z-index: 2;
   position: absolute;
+  padding: 0.8em 3em;
+  font-size: 0.8em;
+  color: #0f0f0f;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 0.3em;
+  transition: all 0.3s ease-in;
+  background-color: black;
+  font-weight: 700;
+  border-radius: 4em 1em 4em 1em;
+  border: 0px;
+  letter-spacing: normal;
+  font-family: inherit;
 }
 
 .subscribeBtn {
@@ -1148,7 +1155,6 @@ li span {
 
 #home a,
 .rent a,
-.open,
 .subscribeBtn {
   padding: 0.8em 3em;
   font-size: 0.8em;
